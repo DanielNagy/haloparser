@@ -31,8 +31,8 @@ class DeviceNotFoundError(Exception):
 
 
 async def halo_ble_client(args: argparse.Namespace, queue: asyncio.Queue):
-    ACCESS_CODE = bytes("LH76", "utf_8")
-    #ACCESS_CODE = None
+    #ACCESS_CODE = bytes("xxxx", "utf_8")
+    ACCESS_CODE = None
 
     isPaired = ACCESS_CODE != None
 
