@@ -1,5 +1,7 @@
 # haloparser
 
+Developed using pychlorinator from https://github.com/pbutterworth/pychlorinator
+
 ## Install Requirements
 Have Python3 and virtualenv installed.
 >apt install virtualenv
