@@ -194,7 +194,7 @@ async def halo_queue_consumer(queue: asyncio.Queue):
         logger.info(f"ExtractHeaterCooldownState {vars(HeaterCooldownStateCharacteristic(CmdData))}")
 
     def ExtractSolarCapabilities(): #1200
-        logger.info(f"ExtractSolarCapabilities vars({SolarCapabilitiesCharacteristic(CmdData)})")
+        logger.info(f"ExtractSolarCapabilities {vars(SolarCapabilitiesCharacteristic(CmdData))}")
     def ExtractSolarConfig(): #1201
         logger.info(f"ExtractSolarConfig {vars(SolarConfigCharacteristic(CmdData))}")
     def ExtractSolarState(): #1202
